@@ -6,11 +6,11 @@ Console.OutputEncoding = System.Text.Encoding.UTF8;
 decimal precoInicial = 0;
 decimal precoPorHora = 0;
 
-Console.WriteLine("Seja bem vindo ao sistema de estacionamento!\n" +
-                  "Digite o preço inicial:");
+Console.WriteLine("Seja bem vindo ao Dio Parking!\n" +
+                  "Digite o preço inicial:\n Diurno: R$ 5,00   -    Noturno: R$ 10,00");
 precoInicial = Convert.ToDecimal(Console.ReadLine());
 
-Console.WriteLine("Agora digite o preço por hora:");
+Console.WriteLine("Agora digite o preço por hora:\n Diurno: R$ 1,00   -    Noturno: R$ 2,00");
 precoPorHora = Convert.ToDecimal(Console.ReadLine());
 
 // Instancia a classe Estacionamento, já com os valores obtidos anteriormente
